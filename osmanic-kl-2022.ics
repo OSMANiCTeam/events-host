@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:OSMANiC Keylaunch 2022
+NAME:OSMANiC Keylaunch 2022
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Australia/Perth
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Australia/Perth
+X-LIC-LOCATION:Australia/Perth
+BEGIN:STANDARD
+TZNAME:AWST
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220917T030418Z
+UID:1663383695827-24275@ical.marudot.com
+DTSTART;TZID=Australia/Perth:20221022T120000
+DTEND;TZID=Australia/Perth:20221022T120000
+SUMMARY:OSMANiC Keylaunch 2022
+URL:https://events.osmanic.co/keylaunch/2022
+DESCRIPTION:Join us\, as we share with you\, our first ever OSMANiC Keylaunch event! Keylaunch can be watched from https://events.osmanic.co/keylaunch/2022\, our our YouTube channel!
+LOCATION:https://events.osmanic.co/keylaunch/2022
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OSMANiC Keylaunch 2022
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
